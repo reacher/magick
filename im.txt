@@ -1,0 +1,2 @@
+convert UW344_RVK_25.tif UW343_RVK_25.tif UW334_RVK_25.tif -mode concatenate -tile 1x image_full.tif
+
