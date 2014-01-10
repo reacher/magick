@@ -1,7 +1,0 @@
-convert UW344_RVK_25.tif UW343_RVK_25.tif UW334_RVK_25.tif -mode concatenate -tile 1x image_full.tif
-
-<<<<<<< HEAD
-convert image_full.tif -crop 5800x8000+0+0 -units PixelsPerCentimeter -density 200 -depth 8 im00.tif
-=======
-convert image_full.tif -crop 5800x8000+0+0 -units PixelsPerCentimeter -density 200 -depth 8 -compress Zip im00.tif
->>>>>>> dev
